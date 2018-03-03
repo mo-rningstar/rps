@@ -1,0 +1,78 @@
+body {
+	background: linear-gradient(#ef1557, #4286f4);
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	color: black;
+}
+
+div {
+	background: linear-gradient(#ffff84, #7fffc9);
+	display: inline-block;
+	position: absolute;
+	margin: auto;
+	text-align: center;
+	border-radius: 5px;	
+    text-align: center;
+	padding-top: 10px;
+}
+
+h1 {
+	font-size: 30px;
+    text-align: center;
+}
+
+p {
+	font-size: 12px;
+    text-align: center;
+}
+
+#title {
+	left: 0%;
+	top: 0%;
+	border-radius: 0px;
+	width: 100%;
+	background: none;
+	background-color: #ffff84;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+
+button {
+	border: 1px solid grey;
+	border-radius: 5px;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.topRow {
+	top: 25%;
+	width: 25%;
+	height: 35%;	
+}
+
+#user {
+	left: 15%;
+	
+}
+
+#computer {
+	right: 15%;
+}
+
+#results {
+	top: 65%;	
+	right: 25%;
+	width: 50%;
+	height: 120px;
+	background: none;
+	background-color:#7fffc9;
+}
+
+#changeText {
+
+}

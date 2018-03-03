@@ -1,0 +1,37 @@
+<?DOCTYPE html>
+<head>
+  <title>Rock, Paper, Scissors!</title>
+  <link rel="stylesheet" type="text/css" href="rps.css">
+  <script src="rps.js"></script>
+</head>
+<body>
+	<div id="title">
+		<h1>Rock, Paper, Scissors!</h1>
+		<p>Play the classic game against a computer.</p>
+	</div>
+	<div id="user" class="topRow">
+	 	<select name="playerSelect" id="playerSelect" onchange="imageSelect()">
+			<option value="r">Rock</option>
+			<option value="p">Paper</option>
+			<option value="s">Scissors</option>
+		</select>
+		<br><br>
+		<img id="playerImage" src='rock.png' style="height:100px">
+		<br><br>
+	 	<button onclick="rps()">Play!</button>
+	</div>
+	<div id="computer" class="topRow">
+	    Computer selects: 
+		<br><br>
+		<img id="computerImage" src='rock.png' style="height:100px">
+		<br><br>
+	    <p id="computerChoice"></p>
+	</div>
+	<br>
+	<br>
+	<div id="results">
+	    Result: 
+	    <p id="changeText">Hit Play!</p>
+	</div>
+</body>
+</html>
